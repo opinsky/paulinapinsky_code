@@ -1,7 +1,8 @@
 #baseURL = "https://compassionate-thompson-092cd3.netlify.app/"
 #baseURL = "https://opinsky.github.io/paulinapinsky.github.io/"
 #baseURL = "https://paulina-pinsky.web.app/"
-baseURL = "https://opinsky.github.io/paulinapinsky_public/"
+#baseURL = "https://opinsky.github.io/paulinapinsky_public/"
+baseURL = "fd55.net"
 canonifyURLs=true
 languageCode = "en-us"
 title = "Paulina Pinsky"
