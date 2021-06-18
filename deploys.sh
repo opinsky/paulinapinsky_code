@@ -15,7 +15,8 @@ fi
 echo ""
 echo ""
 echo "Committing changes to $(pwd)"
-hugo --minify -D
+#hugo --minify -D
+hugo -D
 
 # Go To Public folder
 cd public
