@@ -2,7 +2,7 @@
 #baseURL = "https://opinsky.github.io/paulinapinsky.github.io/"
 #baseURL = "https://paulina-pinsky.web.app/"
 #baseURL = "https://opinsky.github.io/paulinapinsky_public/"
-baseURL = "fd55.net"
+baseURL = "www.fd55.net"
 canonifyURLs=true
 languageCode = "en-us"
 title = "Paulina Pinsky"
