@@ -1,0 +1,11 @@
+#baseURL = "https://compassionate-thompson-092cd3.netlify.app/"
+#baseURL = "https://opinsky.github.io/paulinapinsky.github.io/"
+baseURL = "https://paulina-pinsky.web.app/"
+languageCode = "en-us"
+title = "Paulina Pinsky"
+theme = "paulin"
+#staticDir = ["themes/paulin/static"]
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"

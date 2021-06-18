@@ -1,0 +1,42 @@
+ 
+/*Base Colors
+------------------------------------------------------------ */
+body { background: #878068 url() no-repeat; }
+.container, .sliderGallery { background: #ffffff; }
+div.colborder, div.border { border-right: 1px solid #cccccc; }
+.box,.postmetadata,.nav,#sidebar ul li a:hover,ul.txt li:hover {background: #cccccc }
+#sidebar ul li a,ul.txt li { border-bottom: 1px solid #cccccc; }
+hr {background: #cccccc; color: #cccccc; }
+#footer-wrap {background: #878068;}
+
+/*Font Color
+------------------------------------------------------------ */
+#masthead h4 a, #masthead #logo h1 a, #masthead #logo h1.sitename a {color: #000000}
+body,p,h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {color: #222222}
+h3.sub,h2.sub {border-bottom: 1px solid #cccccc; }
+.welcomebox h2, .welcomebox h6, .welcomebox p {color:#222222}
+
+/*Links 
+------------------------------------------------------------ */
+a, a:link, a:visited, .welcomebox h2 a { color: #43adad; }
+
+/*Hover 
+------------------------------------------------------------ */
+a:hover, a:focus { color: #666666; }
+
+/*Navigation
+------------------------------------------------------------ */
+#top .sf-menu, #top .sf-menu li,.sf-menu, .sf-menu li, #menu-wrap { background:#878068; }
+#top .sf-menu li a,.sf-menu li a { color:#ffffff; background: #878068; }
+#top .sf-menu li a:hover, .sf-menu li a:hover { color:#ffffff; background:#333333}
+#top #search #s, #search #s {border: 1px solid #333333;}
+
+/*PhotoShelter
+-------------------------------------------------------------*/
+#psContent { background: #ffffff; }
+/*#psContent .slide { margin: auto; background: #ffffff; }*/
+/*#psContent .imagebox, ul.thumbs li { background: #ffffff; }*/
+
+/*Custom CSS
+-------------------------------------------------------------*/
+

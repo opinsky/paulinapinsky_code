@@ -1,0 +1,25 @@
+<h2>{{ .Title }}</h2>
+<p>
+  <img class="alignnone size-full wp-image-1697" title="Paulina032" src="{{
+  .Params.image }}" alt="" width="600" xheight="396" {{/* srcset="{{
+  .Params.image2 }} 600w, {{ .Params.image3 }} 590w" sizes="(max-width: 600px)
+  100vw, 600px" */}} />
+  <br />
+  {{ .Params.year }}<br />
+  {{ .Params.technique_portuguese }} | <span style="color: #b8860b"> {{ .Params.technique_english }}</span><br />
+  {{ if .Params.size_of_painting }} {{ .Params.size_of_painting }} {{end}} <br />
+  {{ if .Params.owner_portugese }} {{ .Params.owner_portugese}} /{{ .Params.owner_english}} {{ end }}
+  {{ if .Params.statement }} {{ .Params.statement }} {{end}}
+</p>
+
+<div class="clear"></div>
+
+<p class="postmetadata alt">
+  <small>
+    {{ range .Params.Categories }}
+    <a href="/categories/{{.}}" rel="category">{{.}}</a>
+    {{ end }} / {{ range .Params.Tags }}
+    <a href="/tags/{{.}}" rel="tag">{{.}}</a>
+    {{ end }}
+  </small>
+</p>
