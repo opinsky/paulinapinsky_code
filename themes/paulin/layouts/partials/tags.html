@@ -1,7 +1,7 @@
 
 <div class="tagcloud">
     {{ range $name, $items := .Site.Taxonomies.tags }}
-    <a href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}/"
+    <a href="{{ $.Site.BaseURL }}/tags/{{ $name | urlize | lower }}/"
         class="tag-cloud-link tag-link-119 tag-link-position-1" style='font-size: {{ partial "tagsize.html"  (dict "context" . "size" (len $items)) }};'
         aria-label="{{ $name }} ({{ len $items }} item)">{{ $name }}</a>
     {{ end }}
