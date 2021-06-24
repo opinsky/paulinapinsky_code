@@ -193,5 +193,24 @@
     {{ partial "footer.html" . }}
 
 </body>
+<script>
+    var slideIndex = 0;
+    carousel();
 
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide")
+        for (i=0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display="block";
+        setTimeout(carousel, 4000);
+    }
+</script>
+
+<style>
+    .slide {animation:fading 4s infinite}@keyframes fading{0%{opacity:0}10%{opacity:1}90%{opacity:1}100%{opacity:0}}
+</style>
 </html>
