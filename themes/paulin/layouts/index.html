@@ -121,10 +121,11 @@
                     </ul>
                 </div>
             </div>
+        
             <div id="slider-handle">
                 <div id="content-slider"></div>
             </div>
-
+            <script> new Splide = '.splide'.mount();</script>
 
             <div class="app">
                 <div id="blog-section">
@@ -206,11 +207,11 @@
         slideIndex++;
         if (slideIndex > x.length) {slideIndex = 1}
         x[slideIndex-1].style.display="block";
-        setTimeout(carousel, 4000);
+        setTimeout(carousel, 6000);
     }
 </script>
 
 <style>
-    .slide {animation:fading 4s infinite}@keyframes fading{0%{opacity:0}10%{opacity:1}90%{opacity:1}100%{opacity:0}}
+    .slide {animation:fading 6s infinite}@keyframes fading{0%{opacity:0}10%{opacity:1}98%{opacity:1}100%{opacity:0}}
 </style>
 </html>
