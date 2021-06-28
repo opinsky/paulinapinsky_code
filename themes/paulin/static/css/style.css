@@ -1,6 +1,10 @@
 @import "styles/screen.css";
 @import "styles/nav.css";
 
+
+.slide {animation:fading 10s infinite}@keyframes fading{0%{opacity:0}10%{opacity:1}98%{opacity:1}100%{opacity:0}}
+
+
 body {
   color: #999;
   background: #111;
